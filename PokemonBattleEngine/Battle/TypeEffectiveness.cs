@@ -30,6 +30,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 1.0 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Bug, new Dictionary<PBEType, double>
@@ -52,6 +53,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Dark, new Dictionary<PBEType, double>
@@ -74,6 +76,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Dragon, new Dictionary<PBEType, double>
@@ -96,6 +99,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Electric, new Dictionary<PBEType, double>
@@ -118,6 +122,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 1.0 },
                 { PBEType.Water, 2.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Fighting, new Dictionary<PBEType, double>
@@ -140,6 +145,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 2.0 },
                 { PBEType.Steel, 2.0 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Fire, new Dictionary<PBEType, double>
@@ -162,6 +168,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 0.5 },
                 { PBEType.Steel, 2.0 },
                 { PBEType.Water, 0.5 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Flying, new Dictionary<PBEType, double>
@@ -184,6 +191,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 0.5 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Ghost, new Dictionary<PBEType, double>
@@ -206,6 +214,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Grass, new Dictionary<PBEType, double>
@@ -228,6 +237,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 2.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 2.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Ground, new Dictionary<PBEType, double>
@@ -250,6 +260,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 2.0 },
                 { PBEType.Steel, 2.0 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Ice, new Dictionary<PBEType, double>
@@ -272,6 +283,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 0.5 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Normal, new Dictionary<PBEType, double>
@@ -294,6 +306,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 0.5 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Poison, new Dictionary<PBEType, double>
@@ -316,6 +329,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 0.5 },
                 { PBEType.Steel, 0.0 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Psychic, new Dictionary<PBEType, double>
@@ -338,6 +352,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Rock, new Dictionary<PBEType, double>
@@ -360,6 +375,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 1.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Steel, new Dictionary<PBEType, double>
@@ -382,6 +398,7 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 2.0 },
                 { PBEType.Steel, 0.5 },
                 { PBEType.Water, 0.5 },
+                { PBEType.Esoteric, 1.0 },
             }
             },
             { PBEType.Water, new Dictionary<PBEType, double>
@@ -404,6 +421,30 @@ namespace Kermalis.PokemonBattleEngine.Battle
                 { PBEType.Rock, 2.0 },
                 { PBEType.Steel, 1.0 },
                 { PBEType.Water, 0.5 },
+                { PBEType.Esoteric, 1.0 },
+            }
+            },
+            { PBEType.Esoteric, new Dictionary<PBEType, double>
+            {
+                { PBEType.None, 1.0 },
+                { PBEType.Bug, 1.0 },
+                { PBEType.Dark, 1.0 },
+                { PBEType.Dragon, 1.0 },
+                { PBEType.Electric, 1.0 },
+                { PBEType.Fighting, 1.0 },
+                { PBEType.Fire, 1.0 },
+                { PBEType.Flying, 1.0 },
+                { PBEType.Ghost, 1.0 },
+                { PBEType.Grass, 1.0 },
+                { PBEType.Ground, 1.0 },
+                { PBEType.Ice, 1.0 },
+                { PBEType.Normal, 1.0 },
+                { PBEType.Poison, 1.0 },
+                { PBEType.Psychic, 1.0 },
+                { PBEType.Rock, 1.0 },
+                { PBEType.Steel, 1.0 },
+                { PBEType.Water, 1.0 },
+                { PBEType.Esoteric, 1.0 },
             }
             }
         };

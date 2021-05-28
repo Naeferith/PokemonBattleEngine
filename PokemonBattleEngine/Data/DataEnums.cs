@@ -170,6 +170,8 @@ namespace Kermalis.PokemonBattleEngine.Data
         Rock,
         Steel,
         Water,
+
+        Esoteric,
         MAX
     }
     /// <summary>Represents a specific Pokémon's nature.</summary>
